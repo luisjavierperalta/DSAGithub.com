@@ -26,7 +26,7 @@ Function design:
 
 public class BinaryToDecimalConverter {
     //1 Create a function (algorithm design) for transforming inputs into outputs
-    public static int binaryToDecimal(String binaryString) { //@binaryString passed via @Main Class
+    public static int binaryToDecimal(String binaryString) { //@binaryString passed via @binarytodecimalconverter.algorithm.BinaryToDecimalMain Class
         //2.2 Input validation (Checking @binaryString contains only '0's and '1's)
         String regex = "[01]+"; //Regular expression pattern matches 1 or more ('1' '0')
         if (!binaryString.matches(regex)) { //If @binaryString does not match the pattern('0' and '1')

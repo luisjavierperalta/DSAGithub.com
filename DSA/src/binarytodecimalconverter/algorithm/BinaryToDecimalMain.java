@@ -1,6 +1,8 @@
+package binarytodecimalconverter.algorithm;
+
 import static binarytodecimalconverter.algorithm.BinaryToDecimalConverter.binaryToDecimal;
 
-public class Main {
+public class BinaryToDecimalMain {
 
     //3 Defining java's main method
 
